@@ -22,14 +22,15 @@
 
     <div class="col-7" style="height: 225px;">
 
-      <div id="testimonial-card-daniel" class="boxes">
+      <div id="testimonial-card-daniel" class="boxes colored">
 
+        <div class="top">
+ <img class="imgs" height="50px" width="50px" src="images/image-daniel.jpg">
         <div>
-          <img class="imgs" src="images/image-daniel.jpg">
           Daniel Gifford
           <p>Verified Graduate</p>
         </div>
-
+</div>
 
       <h1>I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.</h1>
 
@@ -42,13 +43,16 @@
     </div>
     <div class="col-3" style="height: 225px;">
 
-      <div id="testimonial-card-jon" class="boxes">
+      <div id="testimonial-card-jon" class="boxes colored">
 
+        <div class="top">
+           <img class="imgs" height="50px" width="50px" src="images/image-jonathan.jpg">
         <div>
-          <img class="imgs" src="images/image-jonathan.jpg">
+         
           Jonathan Walters
           <p>Verified Graduate</p>
         </div>
+      </div>
 
         <h1>The team was very supportive and kept me motivated.</h1>
 
@@ -65,12 +69,16 @@
   <div class="row">
     <div class="col-3" style="height: 225px;">
 
-      <div id="testimonial-card-jeanette" class="boxes">
+      <div id="testimonial-card-jeanette" class="boxes lights">
 
+
+        <div class="top">
+          
+          <img class="imgs" height="50px" width="50px" src="images/image-jeanette.jpg">
         <div>
-          <img class="imgs" src="images/image-jeanette.jpg">
           Jeanette Harmon
           <p>Verified Graduate</p>
+        </div>
         </div>
 
         <h1>An overall wonderful and rewarding experience.</h1>
@@ -85,12 +93,16 @@
     <div class="col-7">
 
 
-      <div id="testimonial-card-patrick" class="boxes">
+      <div id="testimonial-card-patrick" class="boxes colored">
 
+
+        <div class="top"> 
+          
+          <img class="imgs" height="50px" width="50px" src="images/image-patrick.jpg">
         <div>
-          <img class="imgs" src="images/image-patrick.jpg">
           Patrick Abrams
           <p>Verified Graduate</p>
+        </div>
         </div>
 
         <h1>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</h1>
@@ -103,12 +115,16 @@
 </div>
 </div>
 
-<div id="sidebar">
+<div class="lights" id="sidebar">
 
+  <div class="top">
+    
+    <img class="imgs" width="50px" height="50px" src="images/image-kira.jpg">
   <div>
-    <img class="imgs" src="images/image-kira.jpg">
+    
     Kira Whittle
     <p>Verified Graduate</p>
+  </div>
   </div>
 
   <h1>Such a life-changing experience. Highly recommended!</h1>
@@ -151,7 +167,6 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  color: #848891;
 }
 
 #testimonial-card-patrick{
@@ -166,27 +181,26 @@
   position: absolute;
   right: 60px;
   top: 78px;
-  height: 486px;
+  height: px;
   width: 200px;
   border-radius: 10px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   padding: 10px;
-  color: #848891;
 }
 
-div{
-    color: #ffffff;
+.colored{
+  color: #ffffff;
 }
 
-div h1{
+.colored h1{
   font-size: 13px;
   color: #ffffff;
   font-family: "Barlow Semi Condensed";
 }
 
-div p{
+.colored p{
   font-size: 13px;
   opacity: 70%;
   color: #ffffff;
@@ -197,7 +211,19 @@ div p{
   border-radius: 60%;
 }
 
+.lights{
+  font-size: 13px;
+  color: #848891;
+  font-family: "Barlow Semi Condensed";
+}
 
+.lights h1{
+  font-size: 13px;
+}
+
+.top{
+  display: flex;
+}
 
 </style>
 
