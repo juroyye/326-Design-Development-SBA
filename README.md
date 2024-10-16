@@ -1,91 +1,240 @@
-# Frontend Mentor - Testimonials grid section
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Testimonials Challenge</title>
 
-## Welcome! 👋
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-Thanks for checking out this front-end coding challenge.
+  <style>
+     
+  </style>
+</head>
+<body>
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+  <div class="container">
+ 
+<div class="container py-5" style="transform: translateY(30px);">
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+  <div class="row">
 
-## The challenge
+    <div class="col-7" style="height: 225px;">
 
-Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.
+      <div id="testimonial-card-daniel" class="boxes colored">
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+        <div class="top">
+ <img class="imgs" height="50px" width="50px" src="images/image-daniel.jpg"> 
+        <div style="transform: translateX(10px);">
+          Daniel Gifford
+          <p>Verified Graduate</p>
+        </div>
+</div>
 
-Your users should be able to:
+      <h1>I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.</h1>
 
-- View the optimal layout for the site depending on their device's screen size
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+        <p>“I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup.”</p>
 
-## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+      </div>
+      
+    </div>
+    <div class="col-3" style="height: 225px;">
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+      <div id="testimonial-card-jon" class="boxes colored">
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+        <div class="top">
+           <img class="imgs" height="50px" width="50px" src="images/image-jonathan.jpg">
+        <div style="transform: translateX(10px);">
+         
+          Jonathan Walters
+          <p>Verified Graduate</p>
+        </div>
+      </div>
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+        <h1>The team was very supportive and kept me motivated.</h1>
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+        <p>"I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself.”</p>
+       
+   
+      </div>
+</div>
+</div>
+</div>
 
-## Building your project
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+<div class="container py-5" style="transform: translateY(-30px);">
+  <div class="row">
+    <div class="col-3" style="height: 225px;">
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+      <div id="testimonial-card-jeanette" class="boxes lights">
 
-## Deploying your project
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+        <div class="top">
+          
+          <img class="imgs" height="50px" width="50px" src="images/image-jeanette.jpg">
+        <div style="transform: translateX(10px);">
+          Jeanette Harmon
+          <p>Verified Graduate</p>
+        </div>
+        </div>
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+        <h1>An overall wonderful and rewarding experience.</h1>
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+        <p>“Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love.”</p>
+       
 
-## Create a custom `README.md`
+      </div>
+      
+    </div>
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+    <div class="col-7">
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+      <div id="testimonial-card-patrick" class="boxes colored">
 
-## Submitting your solution
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+        <div class="top"> 
+          
+          <img class="imgs" height="50px" width="50px" src="images/image-patrick.jpg">
+        <div style="transform: translateX(10px);">
+          Patrick Abrams
+          <p>Verified Graduate</p>
+        </div>
+        </div>
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+        <h1>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</h1>
 
-## Sharing your solution
+        <p>“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”</p>
+        
 
-There are multiple places you can share your solution:
+      </div>
+</div>
+</div>
+</div>
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+</div>
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+<div class="lights" id="sidebar">
 
-## Got feedback for us?
+  <div class="top">
+    
+    <img class="imgs" width="50px" height="50px" src="images/image-kira.jpg">
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+  <div style="transform: translateX(10px);">
+    Kira Whittle
+    <p>Verified Graduate</p>
+  </div>
+  </div>
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+  <h1>Such a life-changing experience. Highly recommended!</h1>
 
-**Have fun building!** 🚀
+  <p>“Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my developent experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend!”</p>
+  
+</div>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  body{
+    background-color: #edf2f8;
+  }
+
+.boxes{
+  opacity: 90%;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#testimonial-card-daniel{
+  background-color: #733fc8;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#testimonial-card-jon{
+  background-color: #49556b;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#testimonial-card-jeanette{
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#testimonial-card-patrick{
+  background-color: #18202d;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+#sidebar{
+  position: absolute;
+  right: 60px;
+  top: 78px;
+  height: px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.colored{
+  color: #ffffff;
+}
+
+.colored h1{
+  font-size: 13px;
+  color: #ffffff;
+  font-family: "Barlow Semi Condensed";
+}
+
+.colored p{
+  font-size: 13px;
+  opacity: 70%;
+  color: #ffffff;
+  font-family: "Barlow Semi Condensed";
+}
+
+.imgs{
+  border-radius: 60%;
+}
+
+.lights{
+  font-size: 13px;
+  color: #848891;
+  font-family: "Barlow Semi Condensed";
+}
+
+.lights h1{
+  font-size: 13px;
+}
+
+.top{
+  display: flex;
+
+}
+
+</style>
+
+
+
+
+</body>
+</html>

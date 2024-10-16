@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#b{
+    background-color: #49556b;
+  }
+
+.boxes{
+  opacity: 90%;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 2px;
+}
+
+#testimonial-card-daniel{
+  background-color: #733fc8;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#testimonial-card-jon{
+  background-color: #49556b;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#testimonial-card-jeanette{
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#testimonial-card-patrick{
+  background-color: #18202d;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+#sidebar{
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.colored{
+  color: #ffffff;
+}
+
+.colored h1{
+  font-size: 13px;
+  color: #ffffff;
+  font-family: "Barlow Semi Condensed";
+}
+
+.colored p{
+  font-size: 13px;
+  opacity: 70%;
+  color: #ffffff;
+  font-family: "Barlow Semi Condensed";
+}
+
+.imgs{
+  border-radius: 60%;
+}
+
+.lights{
+  font-size: 13px;
+  color: #848891;
+  font-family: "Barlow Semi Condensed";
+}
+
+.lights h1{
+  font-size: 13px;
+}
+
+.top{
+    display: flex;
+}
+
